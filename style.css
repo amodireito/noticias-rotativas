@@ -6,13 +6,13 @@ body, html {
 
 .banner-container {
     width: 100%;
-    height: auto;
+    /* height: auto; */
     overflow: hidden;
 }
 
 .banner {
     width: 100%;
-    height: auto;
+    /* height: auto; */
     display: none;
     position: relative;
     text-decoration: none;
