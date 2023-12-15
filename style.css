@@ -1,0 +1,62 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.banner-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: relative;
+    text-decoration: none;
+}
+
+.banner img {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.banner-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    width: 70%;
+    float: left;
+}
+
+.banner-call {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    z-index: 4;
+}
+
+.banner:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 600px) {
+    .banner img {
+        width: 100%;
+        height: auto;
+    }
+
+    .banner-title {
+        width: 100%;
+        font-size: 12px;
+    }
+}
